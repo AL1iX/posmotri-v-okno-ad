@@ -74,7 +74,7 @@ html {
   outline: none; /* Сбрасываем стандартный outline */
 }
 
-.content__card-link:focus-visible, 
+.content__card-link:focus-visible,
 .button:focus-visible,
 .search-form__label:has(:focus-visible) {
   outline: 1px solid white; /* Обводка при фокусе с клавиатуры */
@@ -164,8 +164,6 @@ html {
   min-width: 0;
 }
 
-
-
 .result {
   grid-area: result;
 }
@@ -204,8 +202,8 @@ html {
   min-width: 0;
   width: 225px;
   height: auto;
-  padding: 0; 
-  border: none; 
+  padding: 0;
+  border: none;
   margin: 0;
   flex: 0 0 auto;
 }
@@ -228,7 +226,7 @@ html {
   height: 22px;
   background: transparent;
   border: none;
-  border-top: 1px solid white; 
+  border-top: 1px solid white;
   border-bottom: 1px solid white;
   color: white;
   font-family: "Fira Sans Condensed", sans-serif;
@@ -237,7 +235,7 @@ html {
   font-size: 18px;
   line-height: 100%;
   letter-spacing: 0%;
-  padding: 2px 0; 
+  padding: 2px 0;
   opacity: 1;
   appearance: none;
   outline: none;
@@ -261,7 +259,7 @@ html {
   display: flex;
   gap: 15px;
   align-items: center;
-  padding: 2px 0; 
+  padding: 2px 0;
 }
 
 .search-form__label {
@@ -321,7 +319,7 @@ html {
 }
 
 .button:active {
-  background: #545050; 
+  background: #545050;
 }
 
 .visually-hidden {
