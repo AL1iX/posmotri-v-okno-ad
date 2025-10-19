@@ -74,7 +74,7 @@ html {
 .content__card-link:focus,
 .button:focus,
 .search-form__textfield:focus {
-  outline: none; /* Сбрасываем стандартный outline */
+  outline: none;
 }
 
 .content__card-link:focus-visible,
@@ -265,8 +265,12 @@ html {
 }
 
 .search-form__label:has(.search-form__textfield:focus-visible) {
-  outline: 1px solid white; /* Граница вокруг лейбла */
-  outline-offset: 2px; /* Отступ границы от элемента */
+  outline: none;
+}
+
+.search-form__textfield:focus-visible {
+  outline: 1px solid white;
+  outline-offset: 1px;
 }
 
 .search-form__label:has(.search-form__checkbox:focus-visible) {
