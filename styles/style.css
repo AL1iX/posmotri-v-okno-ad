@@ -44,7 +44,7 @@ html {
   align-items: end;
   gap: 16px;
   width: fit-content;
-  padding: 0 20px;
+  padding: 10px 20px 0 20px;
   max-width: 1200px;
 }
 
@@ -57,7 +57,9 @@ html {
   text-decoration: none;
   color: white;
   display: block;
-  margin: 2px 0;
+  margin: -2px 0;
+  margin-left: -11px;
+  margin-top: -4px;
 }
 
 .content__card-link:hover .content__video-card {
@@ -90,7 +92,7 @@ html {
   letter-spacing: 0%;
   text-transform: uppercase;
   color: white;
-  margin: 0;
+  margin-top: -5px;
 
   white-space: nowrap;
   overflow: hidden;
@@ -100,12 +102,13 @@ html {
 .content__video-card-description {
   font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
-  font-style: normal;
+  font-style: regular;
   font-size: 18px;
   line-height: 16.2px;
   letter-spacing: 0%;
   color: #fff;
   margin: 0;
+  margin-top: 6px;
 
   display: -webkit-box;
   -webkit-line-clamp: 4;
@@ -116,7 +119,7 @@ html {
 .content__list {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 27px;
 }
 
 .content__details {
@@ -149,6 +152,7 @@ html {
   gap: 15px;
   width: 100%;
   padding: 2px;
+  margin-left: 8px;
 }
 
 .content__video-card-thumbnail {
@@ -162,6 +166,9 @@ html {
 .content__video-card-description-container {
   flex-grow: 1;
   min-width: 0;
+  width: 196px;
+  height: 103px;
+  margin-top: 5px;
 }
 
 .result {
@@ -173,7 +180,9 @@ html {
   width: 711px;
   height: 386px;
   overflow: hidden;
-  margin-bottom: 16px;
+  margin-bottom: -10px;
+  margin-left: -15px;
+  gap: 16px;
 }
 
 .result__video {
@@ -189,11 +198,12 @@ html {
   justify-content: space-between;
   align-items: flex-start;
   gap: 40px;
-  margin-top: 16px;
   position: relative;
   border: none;
   padding: 5px;
   height: auto;
+  margin-top: 20px;
+  margin-left: -20px;
 }
 
 .search-form__fieldset {
@@ -211,19 +221,25 @@ html {
 .search-form__fieldset-title {
   font-weight: 400;
   letter-spacing: 0;
-  margin-bottom: 10px;
+  margin-bottom: 4px;
+  margin-right: 0px;
   font-size: 18px;
 }
 
 .search-form__submit-button {
-  width: 194px;
+  width: 224px;
   height: 34px;
   align-self: flex-end;
+  margin-right: 10px;
+  margin-left: -13px;
+  margin-bottom: -2px;
+  position: relative;
 }
 
 .search-form__textfield {
+  position: relative;
   width: 225px;
-  height: 22px;
+  height: 27px;
   background: transparent;
   border: none;
   border-top: 1px solid white;
@@ -235,10 +251,12 @@ html {
   font-size: 18px;
   line-height: 100%;
   letter-spacing: 0%;
-  padding: 2px 0;
+  padding: 0px 0;
   opacity: 1;
   appearance: none;
   outline: none;
+  margin-top: -10px;
+  top: 10px; /* сдвигаем ниже */
 }
 
 .search-form__fieldset:first-of-type .search-form__label-text {
